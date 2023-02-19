@@ -1,5 +1,6 @@
 const express = require('express');
 const cloudinary = require('cloudinary').v2;
+
 import Post from '../models/posts.js';
 
 const router = express.Router();
